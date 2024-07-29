@@ -71,6 +71,7 @@ ftp> exit
 
 Looks like nothing is hosted here. So next I proceeded with SMB.
 
+```diff
  smbclient -L \\\\10.10.10.3\\tmp
 Password for [WORKGROUP\root]:
 Anonymous login successful
