@@ -146,11 +146,11 @@ cat vgauthsvclog.txt.0
 
 Again nothing interesting here. I was kind of stuck here a for a while before trying to figure out what the distccd service found during the nmap scan was
 
-What distccd?
+<mark>What is distccd?</mark>
 
 From a quick google search found that distcc is a tool for speeding up compilation of source code by using distributed computing over a computer network. With the right configuration, distcc can dramatically reduce a project's compilation time.
 
-Further going down the rabbit hole I discovered that this service was vulnerable to a command execution vulnerability and Metasploit had exploit module for the same
+Further going down the rabbit hole I discovered that this service was vulnerable to a command execution vulnerability and Metasploit had an exploit module for the same
 
 ```diff
 msf6 > use exploit/unix/misc/distcc_exec                                                                                                                                                                                                
