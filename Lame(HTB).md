@@ -1,5 +1,6 @@
 Started of the CTF with a traditional nmap scan
 
+```diff
 nmap -A -p- -T4 10.10.10.3
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-07-29 06:35 EDT
 Nmap scan report for 10.10.10.3
@@ -36,3 +37,4 @@ HOP RTT       ADDRESS
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 576.99 seconds
+```
