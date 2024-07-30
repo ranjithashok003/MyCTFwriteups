@@ -120,7 +120,8 @@ After many more failed attempts, I turned to exploitDB and luckily Pluck(version
 ![alt text](/assets/image.png)
 ![alt text](/assets/image2.png)
 
-Now off to user.txt. Navigating to /home/junior I found the user.txt with another PDF file, "Using OpenVAS.pdf". When I tried to cat the user.txt, I got a permission denied error. Only root and junior had permission to access both these files. Now this is where I got stuck for a long time. I tried a variety of privilege escalation methodologies with no success. I was frustrated and I just randomly thought of using the previously obtained password "iloveyou1" as junior's password, it worked T.T.
+Now off to user.txt. Navigating to /home/junior I found the user.txt with another PDF file, "Using OpenVAS.pdf". When I tried to cat the user.txt, I got a permission denied error. Only root and junior had permission to access both these files. Now this is where I got stuck for a long time. I tried a variety of privilege escalation methodologies with no success. I was frustrated and I just randomly thought of using the previously obtained password "iloveyou1" as junior's password, it worked T.T
+
 ![alt text](/assets/image3.png)
 
 
@@ -150,3 +151,6 @@ Now to use Depix
 
 The password for root is "sidefromsidetheothersidesidefromsidetheotherside"
 ![alt text](/assets/image7.png)
+
+
+Done and Dusted!!
