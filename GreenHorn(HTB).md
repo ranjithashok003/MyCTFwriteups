@@ -117,6 +117,7 @@ Now in the admin portal there is a way to upload files. I tried to exploit this 
 ![alt text](/assets/image1.png)
 
 After many more failed attempts, I turned to exploitDB and luckily Pluck(version: 4.7.18) is vulnerable to RCE as I expected but to exploit this we had to upload a .zip file with the reverse shell in it rather than directly uploading the reverse shell. I used the the exploit posted on exploitDB (https://www.exploit-db.com/exploits/51592) and Bingo!! Got a shell. 
+
 ![alt text](/assets/image.png)
 ![alt text](/assets/image2.png)
 
