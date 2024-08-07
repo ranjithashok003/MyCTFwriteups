@@ -273,4 +273,4 @@ $ sudo /usr/bin/perl /home/itguy/backup.pl
 THM{6637f41d0177b6f37cb20d775124699f}
 
 ```
-But luckily the root.txt was in the location I predicted it to be so it made it simpler. That's it. We got both the user and root flags
+But luckily the root.txt was in the location I predicted it to be so it made it simpler. That's it. We got both the user and root flags!!
