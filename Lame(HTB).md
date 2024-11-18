@@ -1,4 +1,4 @@
-Started of with a traditional nmap scan
+Started off with a traditional nmap scan
 
 ```diff
 nmap -A -p- -T4 10.10.10.3
